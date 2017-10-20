@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat|Open+Sans:300,400,400i,600,700');
+
+body {
+   margin: 0 auto;
+   padding: 0;
+   background: #0f5a79;
+   font-family: 'Open Sans', sans-serif;
+}
+h1,h2{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+
+#wrapperMain {
+   margin: 0 auto;
+   width: 896px;
+   position: relative;
+   border-radius: 30px;
+   box-shadow: 0px 0px 70px 15px rgba(0, 0, 0, 0.7);
+}
+
+#header {
+   position: relative;
+}
+
+#header img{
+    border-radius: 30px 30px 0px 0px;
+}
+
+ .mainTitle {
+    position: relative;
+    background: url('../images/tituloPrincipal.jpg');
+    width:498px; 
+    height:95px; 
+ }
+
+ .mainTitle h1{
+    position: absolute;
+    padding-left: 10px;
+    top: 0px;
+    left: 0px;
+    color: #fcfcd8;
+    font-size: 25px;
+    font-style: italic;
+     
+ }
+
+ .marginReset {
+    margin: 0;
+    padding: 0;
+ }
+
+ #navMain {
+    position: absolute;
+    top: 334px;
+    left: 38px;
+    font-size: 18px;
+ }
+
+ #navMain ul li {
+    display: inline-block;
+    padding: 4px 10px 0 0px;
+    margin-left: 15px;
+    height: 31px;
+    position: relative;
+ }
+ 
+ #navMain ul li ul li {
+    display: block;
+    border-bottom: dotted 1px #fff;
+    margin-right: 10px;
+ }
+ 
+ #navMain a {
+    color: #fff;
+    text-decoration: none;
+ }
+ 
+ #navMain a:hover {
+    color: #F0C600;
+ }
+
+ #wrapperContent {
+    position: relative;
+    bottom: 161px;
+    background-color: #FBF7D2;
+    height: 1055px;
+    top: -5px;
+    border-radius: 0px 0px 22px 22px;
+ }
+
+ #mainParagraph{
+     position: relative;
+     padding-left: 23px;
+     color: #61170E;
+ }
+ 
+ .descriptionTitle {
+    position: relative;
+    background: url(../images/descripcionDelTour.jpg);
+    height: 79px;
+    width: 284px;
+    left: 32px;
+    top: 4px;
+    
+ }
+ 
+  .descriptionTitle h2{
+    position: absolute;
+    top: 26px;
+    left: 65px;
+    color: #fcfcd8;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    background: none;
+}
+
+ 
+ #descriptionList {
+   position: absolute;
+ }
+
+ #descriptionList li{
+    height: 40px;   
+    margin-bottom: -20px;
+ }
+
+ #descriptionList p{
+    margin: 0;
+    padding: 0;
+    line-height: 16px;
+ }
+
+#descriptionList p.format{
+    font-size: 16px;
+    color: #846654;
+    padding-top: 97px;
+ }
+
+ .packageTitle{
+    position: relative;
+    background: url(../images/elPaqueteIncluye.jpg);
+    height: 79px;
+    width: 284px;
+    left: 498px;
+    bottom: 77px;   
+ }
+
+ .packageTitle h2{
+    position: absolute;
+    top: 26px;
+    left: 65px;
+    color: #fcfcd8;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    background: none;
+ }
+
+ #packageList {
+    position: absolute;
+  }
+ 
+  #packageList li{
+     height: 40px;   
+     margin-bottom: -20px;
+  }
+ 
+  #packageList p{
+     margin: 0;
+     padding: 0;
+     line-height: 16px;
+  }
+ 
+ #packageList p.format{
+     font-size: 16px;
+     color: #846654;
+     padding-top: 97px;
+  }
+
+  .recommendationTitle{
+    position: relative;
+    background: url(../images/recomendaciones.jpg);
+    height: 79px;
+    width: 284px;
+    left: 498px;
+    bottom: -8px;   
+    z-index: 1;
+ }
+
+ .recommendationTitle h2{
+    position: absolute;
+    top: 26px;
+    left: 65px;
+    color: #fcfcd8;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    background: none;
+ }
+
+  #recommendationList {
+    position: absolute;
+  }
+ 
+  #recommendationList li{
+     height: 40px;   
+     margin-bottom: -20px;
+  }
+ 
+  #recommendationList p{
+     margin: 0;
+     padding: 0;
+     line-height: 16px;
+  }
+ 
+ #recommendationList p.format{
+     font-size: 16px;
+     color: #846654;
+     padding-top: 97px;
+  }
+ 
+ 
+ .clockImage{
+    position: absolute;
+    background: url(../images/reloj.jpg);
+    height: 122px;
+    width: 430px;
+    left: 0px;
+    top: 531px;
+    bottom: 77px;   
+    z-index: 2;
+
+ }
+
+ #clockList {
+    position: absolute;
+    top: -35px;
+    left: 137px;
+  }
+ 
+  #clockList li{
+     height: 40px;   
+     margin-bottom: -20px;
+  }
+ 
+  #clockList p{
+     margin: 0;
+     padding: 0;
+     line-height: 16px;
+  }
+ 
+ #clockList p.format{
+     font-size: 16px;
+     color: #846654;
+     padding-top: 97px;
+  }
+
+  #backgroundImage{
+      position: absolute;
+      background: url(../images/imagenFondo.jpg);
+      height: 502px;
+      width: 896px;
+      bottom: 0px;
+     /* border-radius: 0px 0px 22px 22px;*/
+  }
+  #backgroundImage p.noteFormat{
+    font-size: 16px;
+    color:#FAF5EB;
+    padding-top: 465px;
+    padding-left: 54px;
+  }
+
+  #backgroundList p.format{
+    font-size: 16px;
+    color: #846654;
+    padding-top: 86px;
+    padding-left: 38px;
+  }
+
+  #backgroundList li{
+    height: 40px;   
+    margin-bottom: -20px;
+ }
+
+ #backgroundList p{
+    margin: 0;
+    padding: 0;
+    line-height: 16px;
+ }
+
+  #footer{
+    position: absolute;
+    background: url(../images/footer.jpg);
+    height: 69px;
+    width: 896px;
+    bottom: -64px;
+    border-radius: 0px 0px 30px 30px;
+    box-shadow: 0px 29px 70px 15px rgba(0,0, 0, 0.7);
+  }
+
+  #footerList p.formatPhone{
+    font-size: 24px;
+    color: #FAF5EB;
+    text-align: center;
+    padding-top: 4px;
+  }
+
+  #footerList li{
+    height: 40px;   
+    margin-bottom: -20px;
+ }
+
+  #footerList p{
+    margin: 0;
+    padding: 0;
+    line-height: 16px;
+ }
+  #footerList p.format {
+    font-size: 13px;
+    color: #FAF5EB;
+    text-align: center;
+    line-height: 34px;
+  }
+
+
+
+
+
+ /*-------------- ESTILOS AUXILIARES ------*/
+
+.listReset {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; 
+ }
